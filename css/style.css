@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #29323b;
+}
+
+
+/* 主色(primary) #29323b */
+
+
+/* 強調色(accent) #E2C0B9 */
+
+
+/* 字體顏色 #333 */
+
+
+/* general */
+
+.cv {
+    width: 700px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 22px -3px rgba(0, 0, 0, .5);
+}
+
+.cv-header,
+.cv-body,
+.cv-footer {
+    padding: 30px 50px;
+}
+
+
+/* cv-header */
+
+.cv-header {
+    background: #aaa;
+}
+
+
+/* cv-body */
+
+.experience {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.company-logo {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 40px;
+}
+
+
+/* cv-footer */
+
+.cv-footer {
+    padding: 60px 50px;
+    background-color: #29323b;
+}
+
+.social-link {
+    color: white;
+    background: rgba(255, 255, 255, .1);
+    border: 1px dashed white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    vertical-align: top;
+    text-decoration: none;
+}
